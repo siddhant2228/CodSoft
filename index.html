@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Personal Portolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ea5cd6b938.js" crossorigin="anonymous"></script>
+</head>
+
+<body> 
+    <div id="header">
+        <div class="container">
+            <nav> 
+                <img src="https://logos.textgiraffe.com/logos/logo-name/35031621-designstyle-royal-l.png" class="logo">
+                 <ul id="sidemenu">
+                    <li><a href="#header"> Home </a></li>
+                    <li><a href="#about"> About </a></li>
+                    <li><a href="#services"> Services </a></li>
+                    <li><a href="#portfolio"> Portfolio </a></li>
+                    <li><a href="#contact"> Contact </a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                 </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav> 
+            <div class="header-text">
+                 
+                <h1> Hii I'm <br><span> Siddhant </span></h1>
+                <p> Web Developer</p>
+                 
+
+            </div>
+
+        </div>
+
+    </div>
+
+<div id="about">
+        <div class="container">
+            <div class="row">
+             <div class="about-col-1">
+                <img src="Images/user_photo.jpg">
+            </div>
+
+            <div class="about-col-2">
+                <h1 class="sub-title"> About Me </h1>
+                <p> "Hello, I'm Siddhant, a frontend developer passionate about crafting
+                     captivating user interfaces. With 1 years of experience, I specialize in
+                      turning designs into seamless web experiences using HTML, CSS, and JavaScript. 
+                      Proficient in modern frameworks like React, I thrive on merging design and 
+                      functionality to create user-centered applications that leave a lasting impact.
+                </p>
+
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li> <span>Frontend Developer</span><br>Web App Development</li>
+                        <li> <span>C++ Enthusiast</span><br>C++ Coder</li>
+                        <li> <span>React Developer</span><br>Web App Development</li>
+                    </ul>
+                </div>
+
+                
+                <div class="tab-contents" id="experience" >
+                    <ul>
+                        <li> <span>Oasis Infobyte</span><br> Web Development</li>
+                        <li> <span>Bharat Intern</span><br>Web Development</li>
+                       
+                    </ul>
+                </div>
+
+                
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li> <span>BTech</span><br>Ajay Kumar Garg Engineering College, Ghaziabad</li>
+                        <li> <span>Intermediate</span><br>K.D.B Public School , Ghaziabad</li>
+                        <li> <span>High School </span><br>Ingraham Institute English School, Ghaziabad</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+     </div>
+</div>
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title"> My Services </h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2> Web Design</h2>
+                <p>A web developer experienced in creating interactive and user-centric digital solutions using cutting-edge technologies.</p>
+                    <a href="#"> Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2> C++ Enthusiast</h2>
+                <p>  A dedicated C++ programmer with a passion for building intricate software systems and pushing the boundaries of efficient coding.</p>
+                    <a href="#"> Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2> React Developer</h2>
+                <p> A skilled React developer who crafts engaging UIs and brings ideas to life through dynamic web applications.</p>
+                    <a href="#"> Learn more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+   </div id="portfolio" >
+   <div class="container"> 
+    <h1 class="sub-title"> My Work </h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="Images/work2.jpeg" >
+            <div class="layer">
+                <h3> Social Media App</h3>
+                <p> Crafting vibrant social media platforms where connections thrive and interactions come to life. </p>
+            <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div> 
+    
+        <div class="work">
+            <img src="Images/work1.jpeg" >
+
+            <div class="layer">
+                <h3> Video Conferencing App</h3>
+                <p> "I specialize in designing and developing seamless video conferencing websites for seamless virtual collaboration.</p>
+            <a href="#"> <i class="fa-solid fa-video"></i></a>
+            </div>
+        </div> 
+    
+        <div class="work">
+            <img src="Images/work3.jpeg" >
+            <div class="layer">
+                <h3> E-Commerce Website</h3>
+                <p> "I create captivating e-commerce websites that fuse intuitive user experiences with seamless online shopping.</p>
+            <a href="#"> <i class="fa-sharp fa-solid fa-dumpster"></i></a>
+            </div>
+        </div> 
+     </div> 
+
+     <a href="#" class="btn"> See more</a>
+
+  </div>
+</div>
+
+
+<div id="contact" >
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>sid6979593@gmail.com</p>
+                <p> <i class="fa-sharp fa-solid fa-phone-volume"></i> 8287230795</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/s.siddhant_/"> <i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/siddhant-singh-574721257/"> <i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""> <i class="fa-brands fa-facebook"></i></a>
+                    <a href=""> <i class="fa-brands fa-twitter"></i></a>
+
+                </div>
+               
+                <a href="Images/Resume.png" download class="btn btn2"> Download CV</a>
+
+            </div>
+            <div class="contact-right">
+               <form name="submit-to-google-sheet"> 
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+               <textarea name="Message" rows="6" placeholder="Your Mesaage" ></textarea>
+               <button type="submit" class="btn btn2">Submit</button>
+               </form>
+              <span id="msg" > </span>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="copyright">
+        <p> Copyright © 2023 with <i class="fa-solid fa-heart"></i> by Siddhant</p>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+<script src="script.js"> </script>
+    
+</body>
+</html>
